@@ -12,14 +12,17 @@
 //? String: Represents a sequence of characters enclosed in single or double quotes.
 // Example:
 
+
 //? Boolean: Represents a logical entity with two values: true or false.
 // Example:
 
 //? undefined: Represents the absence of a value or an uninitialized variable.
 // Example:
 
+
 //? Null: Represents the absence of a value. It is often used to explicitly indicate that a variable or object property has no assigned value.
 // Example:
+
 
 //? BigInt: Represents integers of arbitrary precision (available since ECMAScript 2020).
 // Example:
@@ -98,5 +101,6 @@ console.log(parseInt("xyz"));
 // NaN (input can't be converted to an integer)
 
 //? What is the purpose of the NaN value in JavaScript❓
+// NaN means not a number.
 
 //* ========== parseInt & parseFloat End Section ==========

@@ -63,7 +63,8 @@
 //* ====================================
 
 //! What will be the Output 🤔💭
-// let result = "hello" / 2 ❓
+// let result = "hello" / 2 ?
+
 
 //* ===================================
 //*  InterView Question
