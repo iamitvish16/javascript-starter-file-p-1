@@ -15,6 +15,12 @@
 //   // Code to be executed if the condition is false
 // }
 
+// var a = 8 , b = 10
+// if (a<b) {
+//     console.log("this eqaution is true");
+// }else {
+//     console.log("false");
+// }
 //? We can also use an else if clause to check additional conditions:
 
 //* ===============================
@@ -39,12 +45,33 @@
 //* ===============================
 //! 1: Write a program to check if a number is even or odd.
 //! 2: Write a program to check if a number is prime.
-//todo Prime numbers are numbers that have only 2 factors: 1 and themselves.
+//? todo Prime numbers are numbers that have only 2 factors: 1 and themselves.
 //? All prime numbers greater than 2 are odd.
 //? However, not all odd numbers are prime.
+// var num = 10;
+// var isPrime = true;
+// for (var i =2; i < num ; i++){
+//     if (num % i === 0)
+//         {
+//         isPrime = false;
+//         break;
+//     }
+// }
 
+// if (isPrime){
+//     console.log('number is prime');
+// }else {
+//     console.log('number is not prime');
+// }
 //! 3: Write a program to check if a number is positive, negative, or zero.
-
+// var num = 9 ;
+// if (num < 0){
+//     console.log ('number is negative');
+// }else if (num > 0){
+//     console.log ('number is postive');
+// }else {
+//     console.log ('zero');
+// }
 //* ===============================
 //* Switch Statement
 //* ===============================
@@ -65,7 +92,33 @@
 //   default:
 //   //  Code to be executed if none of the cases match
 // }
+let day = 6; 
 
+switch (day) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Invalid day number.");
+}
 //todo let's see the example
 //! Explain how the switch statement works and what will be the output when the variable day is set to different values.
 
